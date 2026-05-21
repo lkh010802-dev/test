@@ -4,4 +4,5 @@ print(a)
 for i in range(5):
     print("*"*i)
 
-# 여기서는 input도 받아볼 것
+num = int(input("정수를 입력하세요: "))
+print("입력한 정수",num)
